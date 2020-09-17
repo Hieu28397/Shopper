@@ -1,0 +1,417 @@
+*{
+    font-family: cursive;
+}
+body{
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.container {
+    /* max-width: 100%; */
+    margin: auto;
+  }
+.row {
+    display: flex;
+
+}
+.col-2{
+    width: 16.67%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+  width: 33.333%;
+
+}
+.col-6 {
+    width: 50%;
+
+}
+.col-8 {
+ width: 66.667%;
+
+}
+.col-9 {
+ width: 75%;
+}
+.col-br{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+.container__menu{
+    background-color: white;
+    box-shadow:0px 10px #F9F9F9 ;
+    margin-bottom: 10px;
+
+}
+
+.logo{
+    margin: 30px 30px;
+}
+.header__menu{
+    align-items: center;
+}
+.nav--menu{
+    color: black;
+    align-items: center;
+}
+.nav>a{
+    margin: 0px 10px;
+}
+.account>a{
+    font-size: 12px;
+    color: #666666;
+    position: relative;
+    margin-right: 8px;
+}
+.account{
+    text-align: right;
+}
+.cart__icon{
+    text-align: center;
+}
+.cart__icon i{
+    margin: 0px 10px;
+    font-size: larger;
+}
+
+/* End Menu */
+/*Categories */
+.categories{
+height: 638px;
+}
+
+.set-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.bg--1{
+    height: 638px;
+    width: 100%;
+    background-image: url(category-1.jpg);
+}
+
+.categories__item{
+    display: flex;
+    align-items: center;
+}
+
+.categories__text{
+    font-family: "Cookie", cursive;
+    max-width: 480px;
+    padding-left: 25px;
+}
+.categories__text p{
+    font-size: 14px;
+    color: #666666;
+}
+.categories__text>a{
+    color: black;
+    border-bottom: 3px #CA1515 solid;
+    font-size: 15px;
+}
+.categories__text>h2{
+    margin: 0px;
+}
+.bg--2{
+    background-image: url(category-2.jpg);
+    height: 314px;
+}
+.bg--3{
+    background-image: url(category-3.jpg);
+    height: 314px;
+}
+.bg--4{
+    background-image: url(category-4.jpg);
+    height: 314px;
+}.bg--5{
+    background-image: url(category-5.jpg);
+    height: 314px;
+}
+
+/* header__bot */
+/* section__header */
+.container{
+    
+    max-width: 1200px;
+}
+.section_product{
+    padding-top: 40px;
+}
+.row--section__top{
+    align-items: center;
+}
+.section__header--nav_menu,.section__top--title{  
+    padding: 0px 15px;
+    
+}
+
+.section__top--nav{
+    text-align: right;
+}
+.cart-list__item{
+    margin: 15px;
+}
+.product_item--image{
+    width: 100%;
+}
+
+.product_item{
+    text-align: center;
+}
+.product_item--content>h3{
+    font-weight: initial;
+    margin: 0px;
+}
+.rating{
+    color: #E3C01C;
+    font-size: 10px;
+}
+
+/* carousel */
+.Carousel--shopnow{
+    background-repeat: no-repeat;
+    background-image: url(banner-1.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: top;
+}
+
+/*Trend-Seller-Future */
+.section__trend--Seller--future{
+    margin: 50px 0px;
+}
+
+.trend_item{
+    display: flex;
+    margin-top: 40px;
+}
+
+.trend__item--content{
+    margin-left: 20px;
+}
+
+.trend__item--content > h3{
+    font-weight: 100;
+    margin: 0px;
+}
+
+/* Discount */
+.section__discount{
+    margin: 100px 0px;
+}
+.discount--image{
+    width: 100%;
+    height: 100%;
+}
+.section__discount--countdown{
+    background: #F4F4F4;
+    text-align: center;
+}
+
+
+.section__discount--countdown>a{
+    color: black;
+    border-bottom: 3px #CA1515 solid;
+    font-size: 15px;
+}
+
+.discount--summer{
+    margin: auto;
+    background: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    align-items: center;
+}
+.discount--summer>h2{
+    color: red;
+}
+
+.discount--summer>p{
+    display: inline-block;
+    margin: 5px;
+}
+.discount--summer>span{
+    color: red;
+}
+.discount__countdown{
+    display: block;
+    margin: 10px 0px;
+}
+.dc{
+    margin: 10px 10px;
+    display: inline-block;
+    align-items: center;
+}
+.dc>p{
+    display: inline;
+    font-size: 30px;
+}
+
+/*service*/
+
+.service__item>i {
+    display: inline-block;
+    color:#CA1515;
+    font-size: 50px;
+}
+.service__item--content{
+    display: inline-block;
+}
+.service__item--content{
+    margin-left: 15px;
+}
+.service__item--content>p{
+    margin-top: 10px;
+    color: #666666;
+}
+.service__item--content>h3{
+    margin: 0px;
+}
+
+/*instagram*/
+.section__instagram{
+    margin-bottom: 20px;
+}
+
+.col__instagram--1{
+    background: url(insta-1.jpg);
+    height: 320px;
+    background-repeat: round;
+}
+.col__instagram--2{
+    background: url(insta-2.jpg);
+    height: 320px;
+    background-repeat: round;
+}
+.col__instagram--3{
+    background: url(insta-3.jpg);
+    height: 320px;
+    background-repeat: round;
+}
+.col__instagram--4{
+    background: url(insta-4.jpg);
+    height: 320px;
+    background-repeat: round;
+}
+.col__instagram--5{
+    background: url(insta-5.jpg);
+    height: 320px;
+    background-repeat: round;
+}
+.col__instagram--6{
+    background: url(insta-6.jpg);
+    height: 320px;
+    background-repeat: round;
+}
+
+
+
+
+
+
+
+
+
+/*section__footer*/
+.section__footer--content{
+    margin-bottom: 100px;
+}
+.row_footer{
+    align-items: center;
+}
+
+.footer--text a{
+    color: #666666;
+}
+
+.footer--text{
+    color: #666666;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    font-size: 14px;
+    list-style-type: none;
+    margin: 10px 0px;
+}
+.section__footer--content--Email{
+    position: relative;
+}
+.section__footer--content--Email form input{
+    height: 46px;
+    width: 80%;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+.section__footer--content--Email form button{
+    position: absolute;
+    right: 51px;
+    top: 4px;
+}
+.site-btn{
+    font-size: 14px;
+    color: #ffffff;
+    background: #ca1515;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+}
+
+.icon__network{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #e1e1e1;
+    font-size: 15px;
+    color: #111111;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-bottom: 5px;
+}
+.section_footer--icon{
+    margin: 30px 0px;
+}
+.section__footer{
+    border-bottom: 2px #666666 solid;
+}
+/*footer*/
+footer{
+    text-align: center;
+    color: #666666;
+}
+footer >p{
+    display: inline;
+}
+footer i{
+    color: #ca1515;
+}
+footer a{
+    color: #666666;
+}
+
+
+
